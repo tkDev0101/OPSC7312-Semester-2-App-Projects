@@ -13,6 +13,18 @@
         android:theme="@style/Theme.OPSC7312POEPart1Demo"
         tools:targetApi="31">
         <activity
+            android:name=".StartUpActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AboutActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
